@@ -1,0 +1,257 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Playfair Display", serif;
+}
+
+
+
+.nav-links{
+    background-color:gray;
+    opacity: 0.7;
+    padding-bottom: 3%;
+
+}
+
+/* -----li nr 1 och 5 i menyn.  */
+.none{
+    display: none;
+}
+
+.button-container{
+    list-style: none;
+    
+    text-align: center;
+    
+}
+
+.buttons{
+    text-decoration: none;
+    color: black;
+
+    background-color: white;
+    padding: 14px;
+    border-radius: 0.1vh;
+}
+
+.nav-links img {
+    width: 200px;
+    padding: 2%;
+
+}
+
+.landing h1{
+    color: white;
+
+    padding-top: 30vh;
+
+    padding-bottom: 5vh;
+
+    font-size: 100px;
+}
+
+#extern-link{
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 2vh;
+}
+
+
+
+
+
+/*-----------slideshow bilder----------*/
+
+/* Test till slideshow - funkade tyvärr inte 
+
+.slider-frame{
+    
+    height: 100vh;
+    width: 100%;
+}
+
+@keyframes slide_animation{
+    0% {left: -10%;}
+    10% {left: -10%;}
+    20% {left: -10%;}
+    30% {left: -10%;}
+    40% {left: -10%;}
+    50% {left: -10%;}
+    60% {left: -10%;}
+    70% {left: -10%;}
+    80% {left: -10%;}
+    90% {left: -10%;}
+    100% {left: -10%;}
+}
+
+.slide-images{
+    overflow: hidden;
+    width: 10000%;
+    height: 100%;
+    list-style: none;
+    position: relative;
+    animation-name: slide_animation;
+    animation-duration: 33s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-play-state: running;
+
+
+}
+-----------Slide show slut---------*/
+
+.img{
+  
+    width: 100%;
+  
+}
+
+
+
+
+
+/* rubrik och länk till serie */
+
+.landing{
+    height: 50%;
+
+    position: absolute;
+    
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+
+}
+
+/*sektioner med bild och text i block*/
+
+.infotext{
+    background-color: beige;
+    text-align: center;
+    margin-top: 0;
+}
+
+.infotext section{
+    display: flex;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    align-items:center;
+    justify-content:center;
+}
+
+.infotext img{
+    width: 100%;
+}
+
+
+
+/*hit*/
+
+.footer{
+    background-color: grey;
+    text-align: center;
+}
+
+#cp{
+    padding: 10vh;
+}
+
+/*karaktärer*/
+
+.landingK{
+    min-height: 100vh;
+    
+    background-image: url("/Users/flamman/Documents/GitHub/wecrash/img/karaktarer.jpg");
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.landingK h1{
+    color: white;
+
+    padding-top: 40vh;
+
+    font-size: 100px;
+}
+
+
+
+.karaktar{
+    background-color: beige;
+    text-align: center;
+    margin: 5%;
+    border-radius: 5vh;
+}
+
+.karaktar section{
+    display: flex;
+    width: 60%;
+    height: 200px;
+    margin: auto;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.karaktar img{
+    width: 80%;
+    margin: 10%;
+    border-radius: 5vh;
+ }
+
+.karaktar p{
+    text-align: end;
+    padding: 20px;
+}
+
+.karaktar h2{
+    text-align: start;
+    padding: 20px;
+}
+
+
+/*truestory*/
+
+.landingT{
+    min-height: 100vh;
+    
+    background-image: url("/Users/flamman/Documents/GitHub/wecrash/img/truestory.webp");
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.landingT h1{
+    color: white;
+
+    padding-top: 40vh;
+
+    font-size: 100px;
+}
+
+.textmassa{
+    background-color: beige;
+    text-align: center;
+    margin: 5%;
+    border-radius: 5vh;
+}
+
+.textmassa h1{
+    padding: 3vh;
+}
+
+.textmassa p{
+    padding: 5vh;
+}
+
+
+
+

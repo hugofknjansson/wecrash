@@ -1,0 +1,46 @@
+
+.nav-links{
+    grid-template: 1/-1;
+    grid-row: 1;
+}
+
+
+
+.button-container{
+    
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+
+}
+
+.infotext{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/*karaktärer*/
+
+.karaktar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 900px) {
+
+    .landing{
+        display: none;
+    }
+
+    .infotext{
+
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .karaktar{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
